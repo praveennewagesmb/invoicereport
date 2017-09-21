@@ -1,0 +1,22 @@
+
+<div class="main content-warpper">
+    <div class="row no-gutters">
+        <div class="col-3 preview">
+            <h4>Preview</h4>
+            <app-preview></app-preview>
+        </div>
+        <div class="col-9 "> 
+            <div class="row no-gutters dynamic">
+                <div class="col-8 dyformcreator">
+                    <h4>Dynamic Form creator</h4>
+                    <app-formlisting [forms]="forms" (editFormEvent)=editForm($event)></app-formlisting>
+                    <app-creator [formToEdit]="formToEdit" (createNewFormEvent)="create($event)"></app-creator>
+                </div>
+                <div class="col-4">
+                    <h4>Form Items</h4>
+                    <app-confirm></app-confirm>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div> 

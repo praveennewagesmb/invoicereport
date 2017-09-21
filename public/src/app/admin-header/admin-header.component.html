@@ -1,0 +1,54 @@
+<header class="main-header">
+  <div class="row d-flex flex-md-row flex-column no-gutters">
+    <div class="logo" [@topmenu]='statecollapse'>
+      <a href="index2.html">
+        <span class="logo-mini" [@topmenu]='statesmall'><b>A</b>BC</span>
+        <span class="logo-lg" [@topmenu]='statelarge'><b>Members</b>Area</span>
+      </a>
+    </div>
+    <div class="d-flex main-bar justify-content-between" [@topmenu]='stateexpand'>
+      <a href="#" class="" (click)="animateMe()" ><i class="fa fa-bars" aria-hidden="true"></i></a>  
+      <div class="d-flex flex-row main-bar">
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bell-o"></i>
+            <span class="label label-warning">10</span>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li class="dropdown-item header">You have 10 notifications</li>
+            <li class="dropdown-item"><a href="#"><i class="fa fa-users text-aqua"></i> Danny Wisemen Joined - July 5th, 2017</a></li>
+            <li class="dropdown-item"><a href="#"><i class="fa fa-warning text-yellow"></i> Credit Card Processing Failed - Dutcher</a></li>
+            <li class="dropdown-item"><a href="#"><i class="fa fa-credit-card text-red"></i> Coupon DRI-098 used by - Ralph</a></li>
+            <li class="dropdown-item"><a href="#"><i class="fa fa-shopping-cart text-green"></i> New Order - $250.00 - June 17th, 2017</a></li>
+            <li class="dropdown-item"><a href="#"><i class="fa fa-shopping-cart text-green"></i> New Order - $357.00 - June 29th, 2017</a></li>
+            <li class="dropdown-item footer"><a href="#">View all</a></li>
+          </ul>
+        </div>    
+        <div class="dropdown">    
+          <a  class="btn btn-secondary dropdown-toggle" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="assets/images/icon_n.jpg" class="user-image" alt="User Image">
+            <span class="hidden-xs">Johny John</span>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li class="dropdown-item header">
+              <img src="assets/images/icon_n.jpg" class="img-circle" alt="User Image">
+              <p>Johny John - NewAgeSMB<small>Member since Nov. 1995</small></p>
+            </li>
+            <li class="user-footer">
+              <div class="pull-left">
+                <a href="#" class="btn btn-default btn-flat">Profile</a>
+              </div>
+              <div class="pull-right">
+                <a href="#" class="btn btn-default btn-flat">Sign out</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <a class="" href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+      </div>
+      
+    </div>
+  </div>
+</header>
+
+

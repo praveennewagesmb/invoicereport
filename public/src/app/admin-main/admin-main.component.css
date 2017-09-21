@@ -1,0 +1,22 @@
+h4{
+    padding: 2rem 0 2rem 1rem;
+    border-bottom-color: black;
+    border-bottom-style: dotted;
+    border-bottom-width: .01rem;
+}
+.preview{
+    background-color: #ECECEC;
+    min-height: 100rem;
+    border-right-color: black;
+    border-right-style: dotted;
+    border-right-width: .01rem;
+}
+.dyformcreator{
+    border-right-color: black;
+    border-right-style: dotted;
+    border-right-width: .01rem;
+}
+.dynamic{
+    min-height: 100rem;
+}
+
