@@ -38,8 +38,10 @@ export class AdminMainComponent implements OnInit {
 
   getforms() {
     this._formService.getforms()
-    .then( forms => this.forms = forms)
-    .catch(err => console.log("err"));
+    .then( forms => {this.forms = forms;}
+      )
+    .catch(err => console.log("Error Data did not come to Admin-Main Module"));
+    
   }
 
 }

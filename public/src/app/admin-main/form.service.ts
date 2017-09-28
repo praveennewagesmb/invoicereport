@@ -9,7 +9,7 @@ export class FormService {
   constructor(private _http: Http) { }
 
    getforms(){
-    return this._http.get("/api/forms/")
+    return this._http.get("/api/schedule")
     .map(data => data.json()).toPromise();
   }
 

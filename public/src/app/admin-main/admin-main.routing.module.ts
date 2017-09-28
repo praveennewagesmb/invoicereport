@@ -8,8 +8,8 @@ import { AdminMainComponent } from './admin-main.component';
 const AdminMainRoutes: Routes = [
   { path: '',  component: AdminMainComponent,
   children:[
-  { path: 'Listing',  component: AdminListingComponent},
-  { path: 'AddForm',  loadChildren: './admin-details/admin-details.module#AdminDetailsModule'}
+  { path: 'schedule/:scheduleID',  component: AdminListingComponent},
+  /*{ path: 'AddForm',  loadChildren: './admin-details/admin-details.module#AdminDetailsModule'}*/
   ]
   }
 ];

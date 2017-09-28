@@ -6,7 +6,7 @@ import { UserauthService } from './userauth.service';
 import { CommonModule } from '@angular/common';
 
 const appRoutes: Routes = [
-  { path: '',  loadChildren: './admin-main/admin-main.module#AdminMainModule', canActivate: [AuthGuard]},
+  { path: '',  loadChildren: './admin-main/admin-main.module#AdminMainModule'},
   { path: 'Login', loadChildren: './login/login.module#LoginModule' },
   { path: '**', component: PagenotfoundComponent }
 ];
