@@ -81,748 +81,1288 @@ var data = require("./schedulewithoutinvoice.js");
 
 data = [
  {
-   "ScheduleId": 1299,
-   "ScheduleName": "On Completion of Milestone 8 (Android)",
-   "ScheduleDate": "28 Feb, 2018",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$3,500.00 "
- },
- {
-   "ScheduleId": 1277,
-   "ScheduleName": "On Completion of Milestone 7 (Android)",
-   "ScheduleDate": "26 Jan, 2018",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$3,500.00 "
- },
- {
-   "ScheduleId": 1276,
-   "ScheduleName": "On Completion of Milestone 6 (Android)",
-   "ScheduleDate": "28 Dec, 2017",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$3,500.00 "
- },
- {
-   "ScheduleId": 1271,
-   "ScheduleName": "On Completion of Milestone 7 (IOS)",
-   "ScheduleDate": "27 Dec, 2017",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$3,500.00 "
- },
- {
-   "ScheduleId": 1406,
-   "ScheduleName": "On Completion of Milestone 4",
-   "ScheduleDate": "08 Dec, 2017",
-   "ProjectName": "Tourist Tracker App - iOS & Android hybrid",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$2,500.00 "
- },
- {
-   "ScheduleId": 1270,
-   "ScheduleName": "On Completion of Milestone 6 (IOS)",
-   "ScheduleDate": "27 Nov, 2017",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$3,500.00 "
- },
- {
-   "ScheduleId": 1275,
-   "ScheduleName": "On Completion of Milestone 5 (Android)",
-   "ScheduleDate": "24 Nov, 2017",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$4,000.00 "
- },
- {
-   "ScheduleId": 1405,
-   "ScheduleName": "On Completion of Milestone 3",
-   "ScheduleDate": "17 Nov, 2017",
-   "ProjectName": "Tourist Tracker App - iOS & Android hybrid",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$2,600.00 "
- },
- {
-   "ScheduleId": 1304,
-   "ScheduleName": "On Completion of Dev Milestone IV",
-   "ScheduleDate": "10 Nov, 2017",
-   "ProjectName": "Outbound E5",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$1,200.00 "
- },
- {
-   "ScheduleId": 1316,
-   "ScheduleName": "remaining payment - 3 to 11",
-   "ScheduleDate": "31 Oct, 2017",
-   "ProjectName": "Nector - MSL engagement App",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$24,580.00 "
- },
- {
-   "ScheduleId": 1404,
-   "ScheduleName": "On Completion of Milestone 2",
-   "ScheduleDate": "27 Oct, 2017",
-   "ProjectName": "Tourist Tracker App - iOS & Android hybrid",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$2,500.00 "
- },
- {
-   "ScheduleId": 1269,
-   "ScheduleName": "On Completion of Milestone 5 (IOS)",
-   "ScheduleDate": "27 Oct, 2017",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$3,500.00 "
- },
- {
-   "ScheduleId": 1274,
-   "ScheduleName": "On Completion of Milestone 4 (Android)",
-   "ScheduleDate": "26 Oct, 2017",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$3,000.00 "
- },
- {
-   "ScheduleId": 1401,
-   "ScheduleName": "On Completion of the project",
-   "ScheduleDate": "26 Oct, 2017",
-   "ProjectName": "Revamp of commcarerx.com",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$1,400.00 "
- },
- {
-   "ScheduleId": 1260,
-   "ScheduleName": "On Completion of the project and prior to going live",
-   "ScheduleDate": "24 Oct, 2017",
-   "ProjectName": "SWAYE App Ltd",
+   "ProjectName": "Ilomen App MVP (iOS)",
+   "InvoiceNumber": "ILO006",
+   "ScheduleName": "",
+   "InvoiceAmount": "$602.00 ",
+   "ScheduleID": 1244,
    "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$1,190.00 "
+   "Status": "This Month",
+   "TL": "Arun M",
+   "Deadline": "",
+   "Status": "Completed"
  },
  {
-   "ScheduleId": 1375,
-   "ScheduleName": "Milestone 4 (iOS)",
-   "ScheduleDate": "21 Oct, 2017",
-   "ProjectName": "Statchat v2",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$3,000.00 "
+   "ProjectName": "Redify Inc.",
+   "InvoiceNumber": "RED005",
+   "ScheduleName": "",
+   "InvoiceAmount": "$850.00 ",
+   "ScheduleID": 1245,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "Not Moving",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": "Completed"
  },
  {
-   "ScheduleId": 1303,
-   "ScheduleName": "On Completion of Dev Milestone III",
-   "ScheduleDate": "20 Oct, 2017",
-   "ProjectName": "Outbound E5",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$1,200.00 "
+   "ProjectName": "Haulor",
+   "InvoiceNumber": "UTX039",
+   "ScheduleName": "",
+   "InvoiceAmount": "$1,100.00 ",
+   "ScheduleID": 1386,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "This Month",
+   "TL": "Shinu",
+   "Deadline": "",
+   "Status": "Completed"
  },
  {
-   "ScheduleId": 1377,
-   "ScheduleName": "milestone 7 to 14",
-   "ScheduleDate": "19 Oct, 2017",
-   "ProjectName": "Statchat v2",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$25,847.00 "
- },
- {
-   "ScheduleId": 1376,
-   "ScheduleName": "Milestone 5 (iOS)",
-   "ScheduleDate": "18 Oct, 2017",
-   "ProjectName": "Statchat v2",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$3,000.00 "
- },
- {
-   "ScheduleId": 1331,
-   "ScheduleName": "One completion Project",
-   "ScheduleDate": "12 Oct, 2017",
    "ProjectName": "Inlinkers Website & Mobile app",
+   "InvoiceNumber": "ILK011",
+   "ScheduleName": "",
+   "InvoiceAmount": "$3,600.00 ",
+   "ScheduleID": 1330,
    "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$1,538.00 "
+   "Status": "Not This Month",
+   "TL": "Shine",
+   "Deadline": "",
+   "Status": ""
  },
  {
-   "ScheduleId": 1264,
-   "ScheduleName": "On Completion of the project and prior to going live",
-   "ScheduleDate": "06 Oct, 2017",
-   "ProjectName": "BDOT",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$2,880.00 "
+   "ProjectName": "No Snow Naples",
+   "InvoiceNumber": "PAR045",
+   "ScheduleName": "",
+   "InvoiceAmount": "$800.00 ",
+   "ScheduleID": 1418,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "This Month",
+   "TL": "Jinson",
+   "Deadline": "",
+   "Status": "Completed"
  },
  {
-   "ScheduleId": 1403,
-   "ScheduleName": "On Completion of Milestone 1 - Design phase",
-   "ScheduleDate": "05 Oct, 2017",
-   "ProjectName": "Tourist Tracker App - iOS & Android hybrid",
+   "ProjectName": "SWAYE App Ltd",
+   "InvoiceNumber": "SWA003",
+   "ScheduleName": "",
+   "InvoiceAmount": "$2,124.00 ",
+   "ScheduleID": 1423,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "This Month",
+   "TL": "Shinu",
+   "Deadline": "10/25/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "GOLD PASS",
+   "InvoiceNumber": "GP001",
+   "ScheduleName": "",
+   "InvoiceAmount": "$2,500.00 ",
+   "ScheduleID": 1429,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "The Accidental Tourist",
+   "InvoiceNumber": "TAT005",
+   "ScheduleName": "",
+   "InvoiceAmount": "$1,400.00 ",
+   "ScheduleID": 1076,
    "ProjectManager": "Arun C",
-   "InvoiceAmount": "$2,500.00 "
+   "Status": "Not Moving",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
  },
  {
-   "ScheduleId": 1400,
-   "ScheduleName": "On Completion of Design phase",
-   "ScheduleDate": "05 Oct, 2017",
-   "ProjectName": "Revamp of commcarerx.com",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$1,300.00 "
+   "ProjectName": "The Accidental Tourist",
+   "InvoiceNumber": "TAT004",
+   "ScheduleName": "",
+   "InvoiceAmount": "$1,500.00 ",
+   "ScheduleID": 1075,
+   "ProjectManager": "Arun C",
+   "Status": "Not Moving",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
  },
  {
-   "ScheduleId": 1328,
-   "ScheduleName": "On Completion of Milestone 3",
-   "ScheduleDate": "05 Oct, 2017",
+   "ProjectName": "NowiTouch Calm",
+   "InvoiceNumber": "NIT007",
+   "ScheduleName": "",
+   "InvoiceAmount": "$480.00 ",
+   "ScheduleID": 1295,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Arun M",
+   "Deadline": "",
+   "Status": "Completed"
+ },
+ {
+   "ProjectName": "NowiTouch Calm",
+   "InvoiceNumber": "NIT009",
+   "ScheduleName": "",
+   "InvoiceAmount": "$1,400.00 ",
+   "ScheduleID": 1409,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Arun M",
+   "Deadline": "",
+   "Status": "Completed"
+ },
+ {
+   "ProjectName": "Outbound E5",
+   "InvoiceNumber": "TU003",
+   "ScheduleName": "",
+   "InvoiceAmount": "$1,200.00 ",
+   "ScheduleID": 1416,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Arun M",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
    "ProjectName": "Maintain It -Property Management App (cross platform)",
+   "InvoiceNumber": "PMA003",
+   "ScheduleName": "",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1326,
    "ProjectManager": "Arun C",
-   "InvoiceAmount": "$2,440.00 "
+   "Status": "This Month",
+   "TL": "Jinson",
+   "Deadline": "10/16/2017",
+   "Status": ""
  },
  {
-   "ScheduleId": 1283,
-   "ScheduleName": "Android - On Completion of Android app (Milestone 2)",
-   "ScheduleDate": "04 Oct, 2017",
-   "ProjectName": "AcuPick",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$1,600.00 "
- },
- {
-   "ScheduleId": 1259,
-   "ScheduleName": "On Completion of 70% of Development",
-   "ScheduleDate": "03 Oct, 2017",
-   "ProjectName": "SWAYE App Ltd",
-   "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$1,190.00 "
- },
- {
-   "ScheduleId": 1302,
-   "ScheduleName": "On Completion of Dev Milestone II",
-   "ScheduleDate": "29 Sep, 2017",
-   "ProjectName": "Outbound E5",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$1,600.00 "
- },
- {
-   "ScheduleId": 1273,
-   "ScheduleName": "On Completion of Milestone 3 (Android)",
-   "ScheduleDate": "28 Sep, 2017",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$4,000.00 "
- },
- {
-   "ScheduleId": 1268,
-   "ScheduleName": "On Completion of Milestone 4 (IOS)",
-   "ScheduleDate": "27 Sep, 2017",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$4,000.00 "
- },
- {
-   "ScheduleId": 1327,
-   "ScheduleName": "On Completion of Milestone 2",
-   "ScheduleDate": "21 Sep, 2017",
-   "ProjectName": "Maintain It -Property Management App (cross platform)",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1374,
-   "ScheduleName": "Milestone 3 (iOS)",
-   "ScheduleDate": "21 Sep, 2017",
-   "ProjectName": "Statchat v2",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$3,000.00 "
- },
- {
-   "ScheduleId": 1263,
-   "ScheduleName": "On Completion of Milestone 3",
-   "ScheduleDate": "20 Sep, 2017",
-   "ProjectName": "BDOT",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$2,880.00 "
- },
- {
-   "ScheduleId": 1280,
-   "ScheduleName": "iOS - On Completion of iOS App (Milestone 3)",
-   "ScheduleDate": "18 Sep, 2017",
-   "ProjectName": "AcuPick",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$2,600.00 "
- },
- {
-   "ScheduleId": 1282,
-   "ScheduleName": "Android - On Completion of Milestone 1",
-   "ScheduleDate": "13 Sep, 2017",
-   "ProjectName": "AcuPick",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$2,400.00 "
- },
- {
-   "ScheduleId": 1287,
-   "ScheduleName": "On Completion of project:",
-   "ScheduleDate": "12 Sep, 2017",
-   "ProjectName": "OJT App iOS",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$1,945.00 "
- },
- {
-   "ScheduleId": 1301,
-   "ScheduleName": "On Completion of Dev Milestone I",
-   "ScheduleDate": "8 Sep, 2017",
-   "ProjectName": "Outbound E5",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$1,200.00 "
- },
- {
-   "ScheduleId": 1258,
-   "ScheduleName": "On Completion of 30% of Development",
-   "ScheduleDate": "5 Sep, 2017",
-   "ProjectName": "SWAYE App Ltd",
-   "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$1,190.00 "
- },
- {
-   "ScheduleId": 1178,
-   "ScheduleName": "Post-delivery support for 1 year:",
-   "ScheduleDate": "31 Aug, 2017",
-   "ProjectName": "Biomarker Cove",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1262,
-   "ScheduleName": "On Completion of Milestone 2",
-   "ScheduleDate": "31 Aug, 2017",
-   "ProjectName": "BDOT",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$2,880.00 "
- },
- {
-   "ScheduleId": 1336,
-   "ScheduleName": "Share Feature Android",
-   "ScheduleDate": "31 Aug, 2017",
-   "ProjectName": "NowiTouch Calm",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$240.00 "
- },
- {
-   "ScheduleId": 1279,
-   "ScheduleName": "iOS - On Completion of Milestone 2",
-   "ScheduleDate": "28 Aug, 2017",
-   "ProjectName": "AcuPick",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$2,600.00 "
- },
- {
-   "ScheduleId": 1267,
-   "ScheduleName": "On Completion of Milestone 3 (IOS)",
-   "ScheduleDate": "24 Aug, 2017",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$3,000.00 "
- },
- {
-   "ScheduleId": 1272,
-   "ScheduleName": "On Completion of Milestone 2 (Android)",
-   "ScheduleDate": "24 Aug, 2017",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$4,250.00 "
- },
- {
-   "ScheduleId": 1335,
-   "ScheduleName": "Share Feature IOS",
-   "ScheduleDate": "11 Aug, 2017",
-   "ProjectName": "NowiTouch Calm",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$240.00 "
- },
- {
-   "ScheduleId": 1332,
-   "ScheduleName": "Edit Services and Flow change",
-   "ScheduleDate": "10 Aug, 2017",
-   "ProjectName": "Inlinkers Website & Mobile app",
-   "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$2,103.00 "
- },
- {
-   "ScheduleId": 1177,
-   "ScheduleName": "On Completion of the project:",
-   "ScheduleDate": "3 Aug, 2017",
-   "ProjectName": "Biomarker Cove",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1312,
-   "ScheduleName": "50 % of the Last Invoice Payment 2",
-   "ScheduleDate": "31 Jul, 2017",
-   "ProjectName": "CashBride",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$750.00 "
- },
- {
-   "ScheduleId": 1289,
-   "ScheduleName": "ON COMPLETION USER REG, LOGIN, HOME RECEIPTS",
-   "ScheduleDate": "26 Jul, 2017",
-   "ProjectName": "School Cafe APP",
-   "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$2,255.00 "
- },
- {
-   "ScheduleId": 1266,
-   "ScheduleName": "On Completion of Milestone 2 (IOS)",
-   "ScheduleDate": "26 Jul, 2017",
-   "ProjectName": "Kick Connect Corp",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$4,000.00 "
- },
- {
-   "ScheduleId": 1290,
-   "ScheduleName": "ON COMPLETION OF WHOLE PROJECT",
-   "ScheduleDate": "26 Jul, 2017",
-   "ProjectName": "School Cafe APP",
-   "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$2,255.00 "
- },
- {
-   "ScheduleId": 1176,
-   "ScheduleName": "On Completion of Search module, User-side features:",
-   "ScheduleDate": "14 Jul, 2017",
-   "ProjectName": "Biomarker Cove",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1001,
-   "ScheduleName": "On Completion of Development Milestone 7",
-   "ScheduleDate": "16 Jun, 2017",
-   "ProjectName": "AppKast - Android",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$1,500.00 "
- },
- {
-   "ScheduleId": 1000,
-   "ScheduleName": "On Completion of Development Milestone 6",
-   "ScheduleDate": "19 May, 2017",
-   "ProjectName": "AppKast - Android",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$2,100.00 "
- },
- {
-   "ScheduleId": 999,
-   "ScheduleName": "On Completion of Development Milestone 5",
-   "ScheduleDate": "21 Apr, 2017",
-   "ProjectName": "AppKast - Android",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$2,300.00 "
- },
- {
-   "ScheduleId": 1037,
-   "ScheduleName": "On Completion of the project",
-   "ScheduleDate": "1 Apr, 2017",
-   "ProjectName": "Driving Instructors",
-   "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$1,251.00 "
- },
- {
-   "ScheduleId": 998,
-   "ScheduleName": "On Completion of Development Milestone 4",
-   "ScheduleDate": "31 Mar, 2017",
-   "ProjectName": "AppKast - Android",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$1,850.00 "
- },
- {
-   "ScheduleId": 1036,
-   "ScheduleName": "On Completion of 80% of development phase",
-   "ScheduleDate": "16 March, 2017",
-   "ProjectName": "Driving Instructors",
-   "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$1,860.00 "
- },
- {
-   "ScheduleId": 997,
-   "ScheduleName": "On Completion of Development Milestone 3",
-   "ScheduleDate": "3 Mar, 2017",
-   "ProjectName": "AppKast - Android",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1095,
-   "ScheduleName": "On completion of the project",
-   "ScheduleDate": "03 Mar, 2017",
-   "ProjectName": "IDEM iPhone App (Phase I)",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$950.00 "
- },
- {
-   "ScheduleId": 1035,
-   "ScheduleName": "On Completion of 60% of development phase",
-   "ScheduleDate": "1 Mar, 2017",
-   "ProjectName": "Driving Instructors",
-   "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$1,860.00 "
- },
- {
-   "ScheduleId": 1034,
-   "ScheduleName": "On Completion of 40% of development phase",
-   "ScheduleDate": "16 Feb, 2017",
-   "ProjectName": "Driving Instructors",
-   "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$1,860.00 "
- },
- {
-   "ScheduleId": 996,
-   "ScheduleName": "On Completion of Development Milestone 2",
-   "ScheduleDate": "10 Feb, 2017",
-   "ProjectName": "AppKast - Android",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$1,800.00 "
- },
- {
-   "ScheduleId": 1062,
-   "ScheduleName": "Saving the media files on S3 server",
-   "ScheduleDate": "25 Jan, 2017",
-   "ProjectName": "Backpacr ios",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$300.00 "
- },
- {
-   "ScheduleId": 995,
-   "ScheduleName": "On Completion of Development Milestone 1",
-   "ScheduleDate": "20 Jan, 2017",
-   "ProjectName": "AppKast - Android",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1017,
-   "ScheduleName": "On Completion of Milestone 3 (Android)",
-   "ScheduleDate": "13 Jan, 2017",
-   "ProjectName": "NowiTouch Calm",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$1,200.00 "
- },
- {
-   "ScheduleId": 940,
-   "ScheduleName": "On Completion of Android app",
-   "ScheduleDate": "9 Dec, 2016",
-   "ProjectName": "THRIVOLOGY",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$750.00 "
- },
- {
-   "ScheduleId": 939,
-   "ScheduleName": "On Completion of Milestone 2(Android)",
-   "ScheduleDate": "30 Nov, 2016",
-   "ProjectName": "THRIVOLOGY",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$1,000.00 "
- },
- {
-   "ScheduleId": 938,
-   "ScheduleName": "On Completion of Milestone 1 (Android)",
-   "ScheduleDate": "16 Nov, 2016",
-   "ProjectName": "THRIVOLOGY",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$1,000.00 "
- },
- {
-   "ScheduleId": 936,
-   "ScheduleName": "On Completion of iPhone app",
-   "ScheduleDate": "2 Nov, 2016",
-   "ProjectName": "THRIVOLOGY",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$1,390.00 "
- },
- {
-   "ScheduleId": 1333,
-   "ScheduleName": "Edit Availability / Promotions / Email Marketing",
-   "ScheduleDate": "",
-   "ProjectName": "Inlinkers Website & Mobile app",
-   "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$2,832.00 "
- },
- {
-   "ScheduleId": 1399,
-   "ScheduleName": "Comments & Opening Jobs in Website",
-   "ScheduleDate": "18 Nov, 2017",
-   "ProjectName": "Med Shift X-Change/Android/Website",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$800.00 "
- },
- {
-   "ScheduleId": 1398,
-   "ScheduleName": "Completion Website Features for Medication Staff",
-   "ScheduleDate": "31 Oct, 2017",
-   "ProjectName": "Med Shift X-Change/Android/Website",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$3,000.00 "
- },
- {
-   "ScheduleId": 1350,
-   "ScheduleName": "On Completion of 100% of the project - iOS",
-   "ScheduleDate": "23 Oct, 2017",
-   "ProjectName": "HOP-IN Taxi App (iOS & Android)",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1341,
-   "ScheduleName": "Completion of Milestone 2",
-   "ScheduleDate": "20 Oct, 2017",
-   "ProjectName": "Med Shift X-Change/Android/Website",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$3,000.00 "
- },
- {
-   "ScheduleId": 1397,
-   "ScheduleName": "Completion of Design Phase of Website Version of the App",
-   "ScheduleDate": "29 Sep, 2017",
-   "ProjectName": "Med Shift X-Change/Android/Website",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$2,200.00 "
- },
- {
-   "ScheduleId": 1340,
-   "ScheduleName": "Completion of Milestone 1",
-   "ScheduleDate": "21 Sep, 2017",
-   "ProjectName": "Med Shift X-Change/Android/Website",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$3,000.00 "
- },
- {
-   "ScheduleId": 1349,
-   "ScheduleName": "On Completion of 60% of the project - iOS",
-   "ScheduleDate": "20 Sep, 2017",
-   "ProjectName": "HOP-IN Taxi App (iOS & Android)",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1395,
-   "ScheduleName": "MO017 - Vimeo Integration - Final 50%",
-   "ScheduleDate": "15 Sep, 2017",
-   "ProjectName": "MedicalOne",
-   "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$1,440.00 "
- },
- {
-   "ScheduleId": 1321,
-   "ScheduleName": "Milestone 4",
-   "ScheduleDate": "31 Aug, 2017",
-   "ProjectName": "For Caregivers",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$3,000.00 "
- },
- {
-   "ScheduleId": 1320,
-   "ScheduleName": "Milestone 3",
-   "ScheduleDate": "31 Aug, 2017",
-   "ProjectName": "For Caregivers",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$3,000.00 "
- },
- {
-   "ScheduleId": 1319,
-   "ScheduleName": "Milestone 2",
-   "ScheduleDate": "31 Aug, 2017",
-   "ProjectName": "For Caregivers",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$3,000.00 "
- },
- {
-   "ScheduleId": 1339,
-   "ScheduleName": "Completion of Design Phase of Website",
-   "ScheduleDate": "31 Aug, 2017",
-   "ProjectName": "Med Shift X-Change/Android/Website",
-   "ProjectManager": "Arun C",
-   "InvoiceAmount": "$2,500.00 "
- },
- {
-   "ScheduleId": 1385,
-   "ScheduleName": "Milestone 7",
-   "ScheduleDate": "31 Aug, 2017",
-   "ProjectName": "For Caregivers",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$3,000.00 "
- },
- {
-   "ScheduleId": 1322,
-   "ScheduleName": "Milestone 5",
-   "ScheduleDate": "31 Aug, 2017",
-   "ProjectName": "For Caregivers",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$3,000.00 "
- },
- {
-   "ScheduleId": 1381,
-   "ScheduleName": "Milestone 5",
-   "ScheduleDate": "24 Aug, 2017",
-   "ProjectName": "On-Demand Delivery App",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1378,
-   "ScheduleName": "Milestone 2",
-   "ScheduleDate": "24 Aug, 2017",
-   "ProjectName": "On-Demand Delivery App",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1379,
-   "ScheduleName": "Milestone 3",
-   "ScheduleDate": "24 Aug, 2017",
-   "ProjectName": "On-Demand Delivery App",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1380,
-   "ScheduleName": "Milestone 4",
-   "ScheduleDate": "24 Aug, 2017",
-   "ProjectName": "On-Demand Delivery App",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1334,
-   "ScheduleName": "PTP064",
-   "ScheduleDate": "10 Aug, 2017",
-   "ProjectName": "PersonalTouchProducts",
-   "ProjectManager": "Praveen C Kumar",
-   "InvoiceAmount": "$1,000.00 "
- },
- {
-   "ScheduleId": 1314,
-   "ScheduleName": "Milestone 2 (on completion)",
-   "ScheduleDate": "9 Aug, 2017",
-   "ProjectName": "Presentation Delivery Practice app",
-   "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$1,750.00 "
- },
- {
-   "ScheduleId": 1113,
-   "ScheduleName": "On Completion of 100% of the project",
-   "ScheduleDate": "22 May, 2017",
-   "ProjectName": "HOP-IN Taxi App (iOS & Android)",
-   "ProjectManager": "Retheesh Kumar",
-   "InvoiceAmount": "$2,000.00 "
- },
- {
-   "ScheduleId": 1120,
-   "ScheduleName": "Project Initialization",
-   "ScheduleDate": "15 Mar, 2017",
    "ProjectName": "Real Hospitality Group",
+   "InvoiceNumber": "RHG004",
+   "ScheduleName": "",
+   "InvoiceAmount": "$600.00 ",
+   "ScheduleID": 1388,
    "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$1.00 "
+   "Status": "This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": "Completed"
  },
  {
-   "ScheduleId": 601,
-   "ScheduleName": "L CARD remaining schedule",
-   "ScheduleDate": "7 Dec, 2015",
-   "ProjectName": "L CARD",
+   "ProjectName": "Real Hospitality Group",
+   "InvoiceNumber": "RHG003",
+   "ScheduleName": "",
+   "InvoiceAmount": "$2,320.00 ",
+   "ScheduleID": 1387,
    "ProjectManager": "Deepak Prakash",
-   "InvoiceAmount": "$1,750.00 "
+   "Status": "This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": "Completed"
+ },
+ {
+   "ProjectName": "ABM | High Tech",
+   "InvoiceNumber": "ABM005",
+   "ScheduleName": "",
+   "InvoiceAmount": "$1,000.00 ",
+   "ScheduleID": 1389,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": "Completed"
+ },
+ {
+   "ProjectName": "InHomeSports",
+   "InvoiceNumber": "IHS021",
+   "ScheduleName": "",
+   "InvoiceAmount": "$480.00 ",
+   "ScheduleID": 1412,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "This Month",
+   "TL": "Eldho",
+   "Deadline": "10/20/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Xaddie Co",
+   "InvoiceNumber": "XAD014",
+   "ScheduleName": "",
+   "InvoiceAmount": "$2,480.00 ",
+   "ScheduleID": 1413,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": "Completed"
+ },
+ {
+   "ProjectName": "Backpackr-2017",
+   "InvoiceNumber": "BPKR022",
+   "ScheduleName": "",
+   "InvoiceAmount": "$1,600.00 ",
+   "ScheduleID": 1390,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "This Month",
+   "TL": "Arun M",
+   "Deadline": "",
+   "Status": "Completed"
+ },
+ {
+   "ProjectName": "Backpackr-2017",
+   "InvoiceNumber": "BPKR023",
+   "ScheduleName": "",
+   "InvoiceAmount": "$680.00 ",
+   "ScheduleID": 1391,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "This Month",
+   "TL": "Arun M",
+   "Deadline": "",
+   "Status": "Completed"
+ },
+ {
+   "ProjectName": "Skidmoji Sticker",
+   "InvoiceNumber": "SS002",
+   "ScheduleName": "",
+   "InvoiceAmount": "$2,600.00 ",
+   "ScheduleID": 1382,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": "Completed"
+ },
+ {
+   "ProjectName": "THRIVOLOGY",
+   "InvoiceNumber": "BIL004",
+   "ScheduleName": "",
+   "InvoiceAmount": "$1,000.00 ",
+   "ScheduleID": 937,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "Shinu",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Gentle Reminder",
+   "InvoiceNumber": "GRC003",
+   "ScheduleName": "",
+   "InvoiceAmount": "$1,000.00 ",
+   "ScheduleID": 1134,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not Moving",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Locator App",
+   "InvoiceNumber": "LAP001",
+   "ScheduleName": "",
+   "InvoiceAmount": "$500.00 ",
+   "ScheduleID": 1296,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "This Month",
+   "TL": "Shinu",
+   "Deadline": "",
+   "Status": "Completed"
+ },
+ {
+   "ProjectName": "Biomarker Cove",
+   "InvoiceNumber": "CRW003",
+   "ScheduleName": "",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1175,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "This Month",
+   "TL": "Shinu",
+   "Deadline": "",
+   "Status": "Completed"
+ },
+ {
+   "ProjectName": "Connecting Farmers and Users",
+   "InvoiceNumber": "CFU009",
+   "ScheduleName": "",
+   "InvoiceAmount": "$2,500.00 ",
+   "ScheduleID": 1352,
+   "ProjectManager": "Jinson (PM Account)",
+   "Status": "This Month",
+   "TL": "Jinson",
+   "Deadline": "10/20/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Tourist Tracker App - iOS & Android hybrid",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Milestone 4",
+   "InvoiceAmount": "$2,500.00 ",
+   "ScheduleID": 1406,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Shine",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Tourist Tracker App - iOS & Android hybrid",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Milestone 3",
+   "InvoiceAmount": "$2,600.00 ",
+   "ScheduleID": 1405,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Shine",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Outbound E5",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Dev Milestone IV",
+   "InvoiceAmount": "$1,200.00 ",
+   "ScheduleID": 1304,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Eldho",
+   "Deadline": "12/15/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Nector - MSL engagement App",
+   "InvoiceNumber": "",
+   "ScheduleName": "remaining payment - 3 to 11",
+   "InvoiceAmount": "$24,580.00 ",
+   "ScheduleID": 1316,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "Shinu",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Tourist Tracker App - iOS & Android hybrid",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Milestone 2",
+   "InvoiceAmount": "$2,500.00 ",
+   "ScheduleID": 1404,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Shine",
+   "Deadline": "10/27/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Revamp of commcarerx.com",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of the project",
+   "InvoiceAmount": "$1,400.00 ",
+   "ScheduleID": 1401,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "SWAYE App Ltd",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of the project and prior to going live",
+   "InvoiceAmount": "$1,190.00 ",
+   "ScheduleID": 1260,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Statchat v2",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 4 (iOS)",
+   "InvoiceAmount": "$3,000.00 ",
+   "ScheduleID": 1375,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Outbound E5",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Dev Milestone III",
+   "InvoiceAmount": "$1,200.00 ",
+   "ScheduleID": 1303,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Arun M",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Statchat v2",
+   "InvoiceNumber": "",
+   "ScheduleName": "milestone 7 to 14",
+   "InvoiceAmount": "$25,847.00 ",
+   "ScheduleID": 1377,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Statchat v2",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 5 (iOS)",
+   "InvoiceAmount": "$3,000.00 ",
+   "ScheduleID": 1376,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Inlinkers Website & Mobile app",
+   "InvoiceNumber": "",
+   "ScheduleName": "One completion Project",
+   "InvoiceAmount": "$1,538.00 ",
+   "ScheduleID": 1331,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "Not This Month",
+   "TL": "Shine",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "BDOT",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of the project and prior to going live",
+   "InvoiceAmount": "$2,880.00 ",
+   "ScheduleID": 1264,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "Shinu",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Maintain It -Property Management App (cross platform)",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Milestone 3",
+   "InvoiceAmount": "$2,440.00 ",
+   "ScheduleID": 1328,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Jinson",
+   "Deadline": "10/23/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Tourist Tracker App - iOS & Android hybrid",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Milestone 1 - Design phase",
+   "InvoiceAmount": "$2,500.00 ",
+   "ScheduleID": 1403,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Shine",
+   "Deadline": "10/13/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Revamp of commcarerx.com",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Design phase",
+   "InvoiceAmount": "$1,300.00 ",
+   "ScheduleID": 1400,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "This Month",
+   "TL": "Shine",
+   "Deadline": "10/18/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "AcuPick",
+   "InvoiceNumber": "",
+   "ScheduleName": "Android - On Completion of Android app (Milestone 2)",
+   "InvoiceAmount": "$1,600.00 ",
+   "ScheduleID": 1283,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "SWAYE App Ltd",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of 70% of Development",
+   "InvoiceAmount": "$1,190.00 ",
+   "ScheduleID": 1259,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "Not This Month",
+   "TL": "Shinu",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Outbound E5",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Dev Milestone II",
+   "InvoiceAmount": "$1,600.00 ",
+   "ScheduleID": 1302,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Arun M",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Statchat v2",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 3 (iOS)",
+   "InvoiceAmount": "$3,000.00 ",
+   "ScheduleID": 1374,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "This Month",
+   "TL": "Eldho",
+   "Deadline": "10/23/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Maintain It -Property Management App (cross platform)",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Milestone 2",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1327,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Jinson",
+   "Deadline": "10/12/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "BDOT",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Milestone 3",
+   "InvoiceAmount": "$2,880.00 ",
+   "ScheduleID": 1263,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "AcuPick",
+   "InvoiceNumber": "",
+   "ScheduleName": "iOS - On Completion of iOS App (Milestone 3)",
+   "InvoiceAmount": "$2,600.00 ",
+   "ScheduleID": 1280,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "AcuPick",
+   "InvoiceNumber": "",
+   "ScheduleName": "Android - On Completion of Milestone 1",
+   "InvoiceAmount": "$2,400.00 ",
+   "ScheduleID": 1282,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "OJT App iOS",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of project:",
+   "InvoiceAmount": "$1,945.00 ",
+   "ScheduleID": 1287,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Outbound E5",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Dev Milestone I",
+   "InvoiceAmount": "$1,200.00 ",
+   "ScheduleID": 1301,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Arun M",
+   "Deadline": "10/24/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "SWAYE App Ltd",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of 30% of Development",
+   "InvoiceAmount": "$1,190.00 ",
+   "ScheduleID": 1258,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "This Month",
+   "TL": "Shinu",
+   "Deadline": "10/25/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "BDOT",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Milestone 2",
+   "InvoiceAmount": "$2,880.00 ",
+   "ScheduleID": 1262,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "This Month",
+   "TL": "Shinu",
+   "Deadline": "10/17/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Biomarker Cove",
+   "InvoiceNumber": "",
+   "ScheduleName": "Post-delivery support for 1 year:",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1178,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "NowiTouch Calm",
+   "InvoiceNumber": "",
+   "ScheduleName": "Share Feature Android",
+   "InvoiceAmount": "$240.00 ",
+   "ScheduleID": 1336,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Arun M",
+   "Deadline": "10/4/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "AcuPick",
+   "InvoiceNumber": "",
+   "ScheduleName": "iOS - On Completion of Milestone 2",
+   "InvoiceAmount": "$2,600.00 ",
+   "ScheduleID": 1279,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "This Month",
+   "TL": "Eldho",
+   "Deadline": "10/24/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "NowiTouch Calm",
+   "InvoiceNumber": "",
+   "ScheduleName": "Share Feature IOS",
+   "InvoiceAmount": "$240.00 ",
+   "ScheduleID": 1335,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Arun M",
+   "Deadline": "",
+   "Status": "Completed"
+ },
+ {
+   "ProjectName": "Inlinkers Website & Mobile app",
+   "InvoiceNumber": "",
+   "ScheduleName": "Edit Services and Flow change",
+   "InvoiceAmount": "$2,103.00 ",
+   "ScheduleID": 1332,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Biomarker Cove",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of the project:",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1177,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "CashBride",
+   "InvoiceNumber": "",
+   "ScheduleName": "50 % of the Last Invoice Payment 2",
+   "InvoiceAmount": "$750.00 ",
+   "ScheduleID": 1312,
+   "ProjectManager": "Arun C",
+   "Status": "Not Moving",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "School Cafe APP",
+   "InvoiceNumber": "",
+   "ScheduleName": "ON COMPLETION USER REG, LOGIN, HOME RECEIPTS",
+   "InvoiceAmount": "$2,255.00 ",
+   "ScheduleID": 1289,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "This Month",
+   "TL": "Jinson",
+   "Deadline": "10/18/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "School Cafe APP",
+   "InvoiceNumber": "",
+   "ScheduleName": "ON COMPLETION OF WHOLE PROJECT",
+   "InvoiceAmount": "$2,255.00 ",
+   "ScheduleID": 1290,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "Not This Month",
+   "TL": "Jinson",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Biomarker Cove",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Search module, User-side features:",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1176,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "This Month",
+   "TL": "Shinu",
+   "Deadline": "10/25/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "AppKast - Android",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Development Milestone 7",
+   "InvoiceAmount": "$1,500.00 ",
+   "ScheduleID": 1001,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "AppKast - Android",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Development Milestone 6",
+   "InvoiceAmount": "$2,100.00 ",
+   "ScheduleID": 1000,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "AppKast - Android",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Development Milestone 5",
+   "InvoiceAmount": "$2,300.00 ",
+   "ScheduleID": 999,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "AppKast - Android",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Development Milestone 4",
+   "InvoiceAmount": "$1,850.00 ",
+   "ScheduleID": 998,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "AppKast - Android",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Development Milestone 3",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 997,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "IDEM iPhone App (Phase I)",
+   "InvoiceNumber": "",
+   "ScheduleName": "On completion of the project",
+   "InvoiceAmount": "$950.00 ",
+   "ScheduleID": 1095,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "AppKast - Android",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Development Milestone 2",
+   "InvoiceAmount": "$1,800.00 ",
+   "ScheduleID": 996,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "AppKast - Android",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Development Milestone 1",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 995,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Eldho",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "NowiTouch Calm",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Milestone 3 (Android)",
+   "InvoiceAmount": "$1,200.00 ",
+   "ScheduleID": 1017,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Arun M",
+   "Deadline": "",
+   "Status": "Completed"
+ },
+ {
+   "ProjectName": "THRIVOLOGY",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Android app",
+   "InvoiceAmount": "$750.00 ",
+   "ScheduleID": 940,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "THRIVOLOGY",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Milestone 2(Android)",
+   "InvoiceAmount": "$1,000.00 ",
+   "ScheduleID": 939,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "THRIVOLOGY",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of Milestone 1 (Android)",
+   "InvoiceAmount": "$1,000.00 ",
+   "ScheduleID": 938,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "THRIVOLOGY",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of iPhone app",
+   "InvoiceAmount": "$1,390.00 ",
+   "ScheduleID": 936,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Inlinkers Website & Mobile app",
+   "InvoiceNumber": "",
+   "ScheduleName": "Edit Availability / Promotions / Email Marketing",
+   "InvoiceAmount": "$2,832.00 ",
+   "ScheduleID": 1333,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Med Shift X-Change/Android/Website",
+   "InvoiceNumber": "",
+   "ScheduleName": "Comments & Opening Jobs in Website",
+   "InvoiceAmount": "$800.00 ",
+   "ScheduleID": 1399,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Shinu",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Med Shift X-Change/Android/Website",
+   "InvoiceNumber": "",
+   "ScheduleName": "Completion Website Features for Medication Staff",
+   "InvoiceAmount": "$3,000.00 ",
+   "ScheduleID": 1398,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Shinu",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "HOP-IN Taxi App (iOS & Android)",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of 100% of the project - iOS",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1350,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Med Shift X-Change/Android/Website",
+   "InvoiceNumber": "",
+   "ScheduleName": "Completion of Milestone 2",
+   "InvoiceAmount": "$3,000.00 ",
+   "ScheduleID": 1341,
+   "ProjectManager": "Arun C",
+   "Status": "Not This Month",
+   "TL": "Shinu",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "COMIC FRIDGE",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion - We need to set validations for the image stretching issues and make design changes in the My Channel, Comic Detail Page and Home Page for these changes you have requested for.",
+   "InvoiceAmount": "$684.00 ",
+   "ScheduleID": 1437,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "Not This Month",
+   "TL": "Shinu",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "GOLD PASS",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 2",
+   "InvoiceAmount": "$2,500.00 ",
+   "ScheduleID": 1430,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "GOLD PASS",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 3",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1431,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "GOLD PASS",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 8",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1436,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "GOLD PASS",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 4",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1432,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "GOLD PASS",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 5",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1433,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "GOLD PASS",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 6",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1434,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "GOLD PASS",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 7",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1435,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Med Shift X-Change/Android/Website",
+   "InvoiceNumber": "",
+   "ScheduleName": "Completion of Design Phase of Website Version of the App",
+   "InvoiceAmount": "$2,200.00 ",
+   "ScheduleID": 1397,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Shine",
+   "Deadline": "10/25/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Med Shift X-Change/Android/Website",
+   "InvoiceNumber": "",
+   "ScheduleName": "Completion of Milestone 1",
+   "InvoiceAmount": "$3,000.00 ",
+   "ScheduleID": 1340,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Shinu",
+   "Deadline": "10/17/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "HOP-IN Taxi App (iOS & Android)",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of 60% of the project - iOS",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1349,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "This Month",
+   "TL": "Shinu",
+   "Deadline": "10/20/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "MedicalOne",
+   "InvoiceNumber": "",
+   "ScheduleName": "MO017 - Vimeo Integration - Final 50%",
+   "InvoiceAmount": "$1,440.00 ",
+   "ScheduleID": 1395,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "This Month",
+   "TL": "Shinu",
+   "Deadline": "10/17/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Med Shift X-Change/Android/Website",
+   "InvoiceNumber": "",
+   "ScheduleName": "Completion of Design Phase of Website",
+   "InvoiceAmount": "$2,500.00 ",
+   "ScheduleID": 1339,
+   "ProjectManager": "Arun C",
+   "Status": "This Month",
+   "TL": "Shine",
+   "Deadline": "10/17/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "For Caregivers",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 5",
+   "InvoiceAmount": "$3,000.00 ",
+   "ScheduleID": 1322,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "Jinson",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "For Caregivers",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 4",
+   "InvoiceAmount": "$3,000.00 ",
+   "ScheduleID": 1321,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "For Caregivers",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 7",
+   "InvoiceAmount": "$3,000.00 ",
+   "ScheduleID": 1385,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "For Caregivers",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 3",
+   "InvoiceAmount": "$3,000.00 ",
+   "ScheduleID": 1320,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "This Month",
+   "TL": "Jinson",
+   "Deadline": "10/23/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "For Caregivers",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 2",
+   "InvoiceAmount": "$3,000.00 ",
+   "ScheduleID": 1319,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "This Month",
+   "TL": "Jinson",
+   "Deadline": "10/13/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "On-Demand Delivery App",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 5",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1381,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "Jinson",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "On-Demand Delivery App",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 4",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1380,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "Jinson",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "On-Demand Delivery App",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 3",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1379,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "This Month",
+   "TL": "Jinson",
+   "Deadline": "10/20/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "On-Demand Delivery App",
+   "InvoiceNumber": "",
+   "ScheduleName": "Milestone 2",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1378,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "This Month",
+   "TL": "Jinson",
+   "Deadline": "10/26/2017",
+   "Status": ""
+ },
+ {
+   "ProjectName": "PersonalTouchProducts",
+   "InvoiceNumber": "",
+   "ScheduleName": "PTP064",
+   "InvoiceAmount": "$1,000.00 ",
+   "ScheduleID": 1334,
+   "ProjectManager": "Praveen C Kumar",
+   "Status": "Not This Month",
+   "TL": "Jinson",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "HOP-IN Taxi App (iOS & Android)",
+   "InvoiceNumber": "",
+   "ScheduleName": "On Completion of 100% of the project",
+   "InvoiceAmount": "$2,000.00 ",
+   "ScheduleID": 1113,
+   "ProjectManager": "Retheesh Kumar",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
+ },
+ {
+   "ProjectName": "Real Hospitality Group",
+   "InvoiceNumber": "",
+   "ScheduleName": "Project Initialization",
+   "InvoiceAmount": "$1.00 ",
+   "ScheduleID": 1120,
+   "ProjectManager": "Deepak Prakash",
+   "Status": "Not This Month",
+   "TL": "",
+   "Deadline": "",
+   "Status": ""
  }
 ]
 
@@ -894,4 +1434,4 @@ app.post('/', function (req, res) {
   res.send('Got a POST request')
 })
 
-app.listen(3000, () => console.log("Server runnnig @ 1337 Praveen"));
+app.listen(2000, () => console.log("Server runnnig @ 1337 Praveen"));

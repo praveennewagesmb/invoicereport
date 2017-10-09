@@ -5,6 +5,9 @@ import { Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
+
+
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
 import { UserauthService } from './userauth.service'
@@ -21,6 +24,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component'
     FormsModule,
     HttpModule,
     BrowserAnimationsModule,
+    
     AppRoutingModule
   ],
   providers: [UserauthService,AuthGuard],
