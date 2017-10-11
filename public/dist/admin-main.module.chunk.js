@@ -86,7 +86,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/admin-main/admin-listing/admin-listing.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <h1 class=\"page-header\">Schedules</h1>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <div class=\"panel panel-default\">\r\n          <div class=\"panel-body\">\r\n            <table width=\"100%\" class=\"table table-striped table-bordered table-hover\" id=\"dataTables-example\">\r\n              <thead>\r\n                <tr>\r\n                  <th>Project Name</th>\r\n                  <th>Schedule Name</th>\r\n                  <th>Project Manager</th>\r\n                  <th>Amount</th>\r\n                </tr>\r\n              </thead>\r\n              <tbody>\r\n                <tr class=\"gradeA\" *ngFor=\"let form of forms\">\r\n                  <td>{{form.ProjectName}}</td>\r\n                  <td>{{form.ScheduleName}}</td>\r\n                  <td>{{form.ProjectManager}}</td>       \r\n                  <td>{{form.Amount}}</td>\r\n                </tr>\r\n              </tbody>\r\n            </table>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n\r\n  "
+module.exports = "\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <h1 class=\"page-header\">Schedules</h1>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <div class=\"panel panel-default\">\r\n          <div class=\"panel-body\">\r\n            <table width=\"100%\" class=\"table table-striped table-bordered table-hover\" id=\"dataTables-example\">\r\n              <thead>\r\n                <tr>\r\n                  <th>Project Name</th>\r\n                  <th>Schedule Name</th>\r\n                  <th>Project Manager</th>\r\n                  <th>Amount</th>\r\n                </tr>\r\n              </thead>\r\n              <tbody>\r\n                <tr class=\"gradeA\" *ngFor=\"let form of forms\">\r\n                  <td>{{form.ProjectName}}</td>\r\n                  <td>{{form.ScheduleName}}</td>\r\n                  <td>{{form.ProjectManager}}</td>       \r\n                  <td>{{form.Amount}}</td>\r\n                </tr>\r\n              </tbody>\r\n              <app-employees></app-employees>\r\n            </table>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n\r\n  "
 
 /***/ }),
 
@@ -239,6 +239,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__admin_footer_admin_footer_component__ = __webpack_require__("../../../../../src/app/admin-footer/admin-footer.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__admin_listing_admin_listing_component__ = __webpack_require__("../../../../../src/app/admin-main/admin-listing/admin-listing.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__form_service__ = __webpack_require__("../../../../../src/app/admin-main/form.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__employees_employees_component__ = __webpack_require__("../../../../../src/app/admin-main/employees/employees.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -248,6 +249,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -275,6 +277,7 @@ AdminMainModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_5__admin_main_component__["a" /* AdminMainComponent */],
             __WEBPACK_IMPORTED_MODULE_6__admin_footer_admin_footer_component__["a" /* AdminFooterComponent */],
             __WEBPACK_IMPORTED_MODULE_7__admin_listing_admin_listing_component__["a" /* AdminListingComponent */],
+            __WEBPACK_IMPORTED_MODULE_9__employees_employees_component__["a" /* EmployeesComponent */],
         ],
         providers: [__WEBPACK_IMPORTED_MODULE_8__form_service__["a" /* FormService */]],
     }),
@@ -333,6 +336,67 @@ AdminMainRoutingModule = __decorate([
 ], AdminMainRoutingModule);
 
 //# sourceMappingURL=admin-main.routing.module.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/admin-main/employees/employees.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/admin-main/employees/employees.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<form>\n  <input type=\"text\" col=500 row=10 name=import>\n</form>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/admin-main/employees/employees.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmployeesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var EmployeesComponent = (function () {
+    function EmployeesComponent() {
+    }
+    EmployeesComponent.prototype.ngOnInit = function () {
+    };
+    return EmployeesComponent;
+}());
+EmployeesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-employees',
+        template: __webpack_require__("../../../../../src/app/admin-main/employees/employees.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/admin-main/employees/employees.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], EmployeesComponent);
+
+//# sourceMappingURL=employees.component.js.map
 
 /***/ }),
 

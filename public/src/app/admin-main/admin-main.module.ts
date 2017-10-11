@@ -10,6 +10,7 @@ import { AdminFooterComponent } from '../admin-footer/admin-footer.component';
 import { AdminListingComponent } from './admin-listing/admin-listing.component';
 
 import { FormService } from './form.service';
+import { EmployeesComponent } from './employees/employees.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { FormService } from './form.service';
     AdminMainComponent,
     AdminFooterComponent,
     AdminListingComponent,
+    EmployeesComponent,
     
   ],
   providers: [ FormService ],
