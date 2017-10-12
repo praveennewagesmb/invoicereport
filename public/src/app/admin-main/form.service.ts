@@ -11,6 +11,12 @@ export class FormService {
    getforms(){
     return this._http.get("/api/schedule")
     .map(data => data.json()).toPromise();
+    
+  }
+  
+  getemps(){
+    return this._http.get("/emp/list")
+    .map(data => data.json()).toPromise();
   }
 
   create(form: Form){

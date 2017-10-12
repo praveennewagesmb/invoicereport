@@ -1,5 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Form } from '../.././form'
+import { emp } from '../.././form';
+import { Form } from '../.././form';
+import { FormService } from '../.././form.service'
 
 @Component({
   selector: 'app-formlisting',
@@ -9,12 +11,19 @@ import { Form } from '../.././form'
 export class FormlistingComponent implements OnInit {
   @Input() forms;
   @Output() editFormEvent = new EventEmitter();
-  constructor() { }
+  emps: Array<emp>;
+  constructor(private _formService: FormService) { }
 
   ngOnInit() {
   }
   editForm(form: Form){
     this.editFormEvent.emit(form)
 
+  }
+    getemps() {
+    this._formService.getemps()
+    .then( emps => this.emps = emps)
+    .catch(err => console.log("err"));
+    console.log(this.emps);
   }
 }

@@ -6,9 +6,10 @@ import { AdminMainComponent } from './admin-main.component';
 
 
 const AdminMainRoutes: Routes = [
-  { path: '',  component: AdminMainComponent,
+  { path: '',  component: AdminListingComponent,
   children:[
-  { path: 'schedule/:scheduleID',  component: AdminListingComponent},
+  { path: 'list',  component: AdminListingComponent},
+  
   /*{ path: 'AddForm',  loadChildren: './admin-details/admin-details.module#AdminDetailsModule'}*/
   ]
   }

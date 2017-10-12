@@ -86,7 +86,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/admin-main/admin-listing/admin-listing.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <h1 class=\"page-header\">Schedules</h1>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <div class=\"panel panel-default\">\r\n          <div class=\"panel-body\">\r\n            <table width=\"100%\" class=\"table table-striped table-bordered table-hover\" id=\"dataTables-example\">\r\n              <thead>\r\n                <tr>\r\n                  <th>Project Name</th>\r\n                  <th>Schedule Name</th>\r\n                  <th>Project Manager</th>\r\n                  <th>Amount</th>\r\n                </tr>\r\n              </thead>\r\n              <tbody>\r\n                <tr class=\"gradeA\" *ngFor=\"let form of forms\">\r\n                  <td>{{form.ProjectName}}</td>\r\n                  <td>{{form.ScheduleName}}</td>\r\n                  <td>{{form.ProjectManager}}</td>       \r\n                  <td>{{form.Amount}}</td>\r\n                </tr>\r\n              </tbody>\r\n              <app-employees></app-employees>\r\n            </table>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n\r\n  "
+module.exports = "\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <h1 class=\"page-header\">Schedules</h1>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <div class=\"panel panel-default\">\r\n          <div class=\"panel-body\">\r\n            <table width=\"100%\" class=\"table table-striped table-bordered table-hover\" id=\"dataTables-example\">\r\n              <thead>\r\n                <tr>\r\n                  <th>Employee ID</th>\r\n                  <th>Employee Name</th>\r\n                </tr>\r\n              </thead>\r\n              <tbody>\r\n                <tr class=\"gradeA\" *ngFor=\"let emp of emps\">\r\n                  <td>{{emp.empId}}</td>\r\n                  <td>{{emp.empName}}</td>\r\n                </tr>\r\n              </tbody>\r\n              <app-employees></app-employees>\r\n            </table>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n\r\n  "
 
 /***/ }),
 
@@ -96,6 +96,7 @@ module.exports = "\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdminListingComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__form_service__ = __webpack_require__("../../../../../src/app/admin-main/form.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -106,16 +107,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var AdminListingComponent = (function () {
-    function AdminListingComponent() {
+    function AdminListingComponent(_formService) {
+        this._formService = _formService;
         this.destroyFormEvent = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["x" /* EventEmitter */]();
         console.log('Listing Component');
+        this.getemps();
     }
     AdminListingComponent.prototype.destroy = function (form) {
         console.log(form);
         this.destroyFormEvent.emit(form);
     };
     AdminListingComponent.prototype.ngOnInit = function () {
+    };
+    AdminListingComponent.prototype.getemps = function () {
+        var _this = this;
+        this._formService.getemps()
+            .then(function (emps) { return _this.emps = emps; })
+            .catch(function (err) { return console.log("err"); });
     };
     return AdminListingComponent;
 }());
@@ -133,9 +143,10 @@ AdminListingComponent = __decorate([
         template: __webpack_require__("../../../../../src/app/admin-main/admin-listing/admin-listing.component.html"),
         styles: [__webpack_require__("../../../../../src/app/admin-main/admin-listing/admin-listing.component.css")]
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__form_service__["a" /* FormService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__form_service__["a" /* FormService */]) === "function" && _a || Object])
 ], AdminListingComponent);
 
+var _a;
 //# sourceMappingURL=admin-listing.component.js.map
 
 /***/ }),
@@ -296,7 +307,6 @@ AdminMainModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__admin_listing_admin_listing_component__ = __webpack_require__("../../../../../src/app/admin-main/admin-listing/admin-listing.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__admin_main_component__ = __webpack_require__("../../../../../src/app/admin-main/admin-main.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -309,11 +319,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 var AdminMainRoutes = [
-    { path: '', component: __WEBPACK_IMPORTED_MODULE_3__admin_main_component__["a" /* AdminMainComponent */],
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_2__admin_listing_admin_listing_component__["a" /* AdminListingComponent */],
         children: [
-            { path: 'schedule/:scheduleID', component: __WEBPACK_IMPORTED_MODULE_2__admin_listing_admin_listing_component__["a" /* AdminListingComponent */] },
+            { path: 'list', component: __WEBPACK_IMPORTED_MODULE_2__admin_listing_admin_listing_component__["a" /* AdminListingComponent */] },
         ]
     }
 ];
@@ -427,6 +436,10 @@ var FormService = (function () {
     }
     FormService.prototype.getforms = function () {
         return this._http.get("/api/schedule")
+            .map(function (data) { return data.json(); }).toPromise();
+    };
+    FormService.prototype.getemps = function () {
+        return this._http.get("/emp/list")
             .map(function (data) { return data.json(); }).toPromise();
     };
     FormService.prototype.create = function (form) {

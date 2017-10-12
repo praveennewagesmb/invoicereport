@@ -1,5 +1,5 @@
-<div *ngFor ="let form of forms" class="row d-flex justify-content-around">
+<div *ngFor ="let emps of emps" class="row d-flex justify-content-around">
   <span>User Edit Component</span>
-  <span>{{form.name}}</span>
+  <span>{{emps.empName}}</span>
   <i class="fa fa-edit" (click)="editForm(form)"></i>
 </div>

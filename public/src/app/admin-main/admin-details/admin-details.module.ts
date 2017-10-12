@@ -8,6 +8,7 @@ import { CreatorComponent } from './creator/creator.component';
 import { ConfirmComponent } from './confirm/confirm.component';
 import { MdButtonModule, MdCardModule, MdMenuModule, MdToolbarModule, MdIconModule, MdRadioModule, MdSidenavModule, MdInputModule, MdTabsModule } from '@angular/material';
 import { FormlistingComponent } from './formlisting/formlisting.component';
+import { FormService } from '.././form.service';
 
 @NgModule({
   imports: [
@@ -24,7 +25,7 @@ import { FormlistingComponent } from './formlisting/formlisting.component';
     ConfirmComponent,
     FormlistingComponent
   ],
-  providers: [  ],
+  providers: [ FormService ],
   
 })
 export class AdminDetailsModule {

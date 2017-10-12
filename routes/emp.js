@@ -288,13 +288,41 @@ router.get('/', (req, res, next) => {
 });
 
 router.get('/import', (req, res, next) => {
- 
+ var saveinfo = [];
+ emp.collection.insertMany(data,(err,res)=>{
+   if(err){
+      var message = err;
+   }  else {
+     var message = res;
+   }
+ });
+ res.status(404).send('praveen')
+ res.send(message);
   for (var i = 0; i < data.length;i++) {
-  console.log(i, data[i].empId, data[i].empName);
-  emp.collection.insertMany(data,(err, res)=>{
-    console.log(err, res);
+  
+  emp.empId = data[i].empId;
+  emp.empName = data[i].empName;
+  console.log(i, emp.empId, emp.empName);
+  emp.save((err, user_saved)=>{
+    if(err){
+      console.log(i, err);
+      i=i+1;
+      console.log(i);
+      throw err;
+    }
+    console.log(user_saved);
+    saveinfo[i] = user_saved;
+    
   })    
     }
+    res.send(saveinfo);
+});
+
+router.get('/list', (req,res,next)=>{
+  emp.find((err,docs)=>{
+    
+    res.json(docs);
+  })
 });
 
 router.post('/register', (req, res, next) => {
