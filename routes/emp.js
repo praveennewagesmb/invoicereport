@@ -262,11 +262,14 @@ var data = [
  },
  {
    "empName": "Surya Prabha B",
-   "empId": 1409
+   "empId": 1409,
+   "ctcDetails": "ABC"
+   
  },
  {
    "empName": "Vyshnav Ambadan",
    "empId": 1410
+   
  },
  {
    "empName": "Mrudula Menon",
@@ -298,24 +301,18 @@ router.get('/import', (req, res, next) => {
  });
  res.status(404).send('praveen')
  res.send(message);
-  for (var i = 0; i < data.length;i++) {
+});
+
+router.get('/import/update', (req, res, next)=>{
+  console.log('test');
+  var bulk = emp.collection.initializeUnorderedBulkOp();
+  data.forEach(data=>{
+    bulk.find( { empId : data.empId } ).update( { $set: { ctcDetails : data.ctcDetails } } );  
+    console.log(data.empId);
+  })
   
-  emp.empId = data[i].empId;
-  emp.empName = data[i].empName;
-  console.log(i, emp.empId, emp.empName);
-  emp.save((err, user_saved)=>{
-    if(err){
-      console.log(i, err);
-      i=i+1;
-      console.log(i);
-      throw err;
-    }
-    console.log(user_saved);
-    saveinfo[i] = user_saved;
-    
-  })    
-    }
-    res.send(saveinfo);
+  var message = bulk.execute();
+  res.status(200).send(message);
 });
 
 router.get('/list', (req,res,next)=>{

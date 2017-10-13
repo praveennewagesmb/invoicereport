@@ -10,18 +10,21 @@
           <div class="panel-body">
             <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
               <thead>
+                <button (click)="getemps()">Refresh</button>
                 <tr>
                   <th>Employee ID</th>
                   <th>Employee Name</th>
+                  <th>Ctc Details</th>
                 </tr>
               </thead>
               <tbody>
                 <tr class="gradeA" *ngFor="let emp of emps">
                   <td>{{emp.empId}}</td>
                   <td>{{emp.empName}}</td>
+                  <td>{{emp.ctcDetails}}</td>
                 </tr>
               </tbody>
-              <app-employees></app-employees>
+              
             </table>
           </div>
         </div>
