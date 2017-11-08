@@ -73,7 +73,7 @@ LoginComponent = __decorate([
         template: __webpack_require__("../../../../../src/app/login/login.component.html"),
         styles: [__webpack_require__("../../../../../src/app/login/login.component.css")]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* Router */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__userauth_service__["a" /* UserauthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__userauth_service__["a" /* UserauthService */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__userauth_service__["a" /* UserauthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__userauth_service__["a" /* UserauthService */]) === "function" && _b || Object])
 ], LoginComponent);
 
 var _a, _b;
@@ -159,8 +159,8 @@ var LoginRoutingModule = (function () {
 }());
 LoginRoutingModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* NgModule */])({
-        imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* RouterModule */].forChild(routes)],
-        exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* RouterModule */]]
+        imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* RouterModule */].forChild(routes)],
+        exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* RouterModule */]]
     }),
     __metadata("design:paramtypes", [])
 ], LoginRoutingModule);

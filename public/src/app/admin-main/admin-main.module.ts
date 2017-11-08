@@ -8,6 +8,7 @@ import { AdminMainComponent } from './admin-main.component';
 
 import { AdminFooterComponent } from '../admin-footer/admin-footer.component';
 import { AdminListingComponent } from './admin-listing/admin-listing.component';
+import { AdminDetailsComponent } from './admin-details/admin-details.component';
 
 import { FormService } from './form.service';
 import { EmployeesComponent } from './employees/employees.component';
@@ -26,6 +27,7 @@ import { EmployeesComponent } from './employees/employees.component';
     AdminFooterComponent,
     AdminListingComponent,
     EmployeesComponent,
+    AdminDetailsComponent
     
   ],
   providers: [ FormService ],

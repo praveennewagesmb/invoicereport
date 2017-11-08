@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http'
 import { Form } from './form'
+import { emp } from './form'
 import "rxjs";
 import { Observable } from "rxjs";
 @Injectable()
@@ -11,11 +12,16 @@ export class FormService {
    getforms(){
     return this._http.get("/api/schedule")
     .map(data => data.json()).toPromise();
-    
   }
   
   getemps(){
+    
     return this._http.get("/emp/list")
+    .map(data => data.json()).toPromise();
+  }
+
+    getemp(emp_id: string){
+    return this._http.get("/emp/list/"+emp_id)
     .map(data => data.json()).toPromise();
   }
 

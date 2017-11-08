@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Form } from '.././form';
+import { emp } from '.././form';
 import { FormService } from '.././form.service';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
 @Component({
   selector: 'app-admin-details',
@@ -8,6 +10,7 @@ import { FormService } from '.././form.service';
   styleUrls: ['./admin-details.component.css']
 })
 export class AdminDetailsComponent implements OnInit {
+    emp: emp;
     forms: Array<Form> = [
     //new Form(4, "form4"),
     //new Form(5, "form5"),
@@ -15,13 +18,17 @@ export class AdminDetailsComponent implements OnInit {
   ];
     formToEdit = new Form();
     
-  constructor(private _formService: FormService) { 
+  constructor(private _formService: FormService, private route: ActivatedRoute, private router: Router) { 
     console.log('Admin Details Component')
     this.getforms();
     console.log(this.forms);
   }
 
   ngOnInit() {
+        this.route.paramMap
+      .switchMap((params: ParamMap) =>
+       this._formService.getemp(params.get('id')))
+      .subscribe((Data: emp) => this.emp = Data);
     console.log('Admin Details Component - ngOnInit')
   }
 

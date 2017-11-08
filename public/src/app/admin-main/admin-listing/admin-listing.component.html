@@ -19,9 +19,13 @@
               </thead>
               <tbody>
                 <tr class="gradeA" *ngFor="let emp of emps">
+                  
                   <td>{{emp.empId}}</td>
                   <td>{{emp.empName}}</td>
-                  <td>{{emp.ctcDetails}}</td>
+                  <td *ngFor="let ctc of emp.ctcDetails">
+                    <span>{{ctc.salary}}</span>
+                  </td>
+              
                 </tr>
               </tbody>
               

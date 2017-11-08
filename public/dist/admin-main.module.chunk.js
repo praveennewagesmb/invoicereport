@@ -65,6 +65,104 @@ AdminFooterComponent = __decorate([
 
 /***/ }),
 
+/***/ "../../../../../src/app/admin-main/admin-details/admin-details.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/admin-main/admin-details/admin-details.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "\r\n<div class=\"main content-warpper\">\r\n    <div class=\"row no-gutters\">\r\n        <div class=\"col-12\"> \r\n            <div class=\"row no-gutters dynamic\">\r\n                <div class=\"col-8 dyformcreator\">\r\n                    <h4>EMP Details</h4>\r\n\r\n                </div>\r\n\r\n            </div>\r\n        </div> \r\n    </div>\r\n</div> \r\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/admin-main/admin-details/admin-details.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdminDetailsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__form__ = __webpack_require__("../../../../../src/app/admin-main/form.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__form_service__ = __webpack_require__("../../../../../src/app/admin-main/form.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var AdminDetailsComponent = (function () {
+    function AdminDetailsComponent(_formService, route, router) {
+        this._formService = _formService;
+        this.route = route;
+        this.router = router;
+        this.forms = [];
+        this.formToEdit = new __WEBPACK_IMPORTED_MODULE_1__form__["a" /* Form */]();
+        console.log('Admin Details Component');
+        this.getforms();
+        console.log(this.forms);
+    }
+    AdminDetailsComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.route.paramMap
+            .switchMap(function (params) {
+            return _this._formService.getemp(params.get('id'));
+        })
+            .subscribe(function (Data) { return _this.emp = Data; });
+        console.log('Admin Details Component - ngOnInit');
+    };
+    AdminDetailsComponent.prototype.create = function (form) {
+        this.forms.push(form);
+        console.log(this.forms);
+    };
+    AdminDetailsComponent.prototype.editForm = function (form) {
+        this.formToEdit = form;
+        console.log(this.formToEdit);
+        console.log('admin-details');
+    };
+    AdminDetailsComponent.prototype.getforms = function () {
+        var _this = this;
+        this._formService.getforms()
+            .then(function (forms) { return _this.forms = forms; })
+            .catch(function (err) { return console.log("err"); });
+    };
+    return AdminDetailsComponent;
+}());
+AdminDetailsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-admin-details',
+        template: __webpack_require__("../../../../../src/app/admin-main/admin-details/admin-details.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/admin-main/admin-details/admin-details.component.css")]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__form_service__["a" /* FormService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__form_service__["a" /* FormService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* ActivatedRoute */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* Router */]) === "function" && _c || Object])
+], AdminDetailsComponent);
+
+var _a, _b, _c;
+//# sourceMappingURL=admin-details.component.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/admin-main/admin-listing/admin-listing.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -73,7 +171,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".fa{\r\n    cursor: pointer;\r\n}", ""]);
+exports.push([module.i, ".fa{\r\n    cursor: pointer;\r\n}\r\n.details{\r\n    cursor: pointer;\r\n}", ""]);
 
 // exports
 
@@ -86,7 +184,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/admin-main/admin-listing/admin-listing.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <h1 class=\"page-header\">Schedules</h1>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <div class=\"panel panel-default\">\r\n          <div class=\"panel-body\">\r\n            <table width=\"100%\" class=\"table table-striped table-bordered table-hover\" id=\"dataTables-example\">\r\n              <thead>\r\n                <button (click)=\"getemps()\">Refresh</button>\r\n                <tr>\r\n                  <th>Employee ID</th>\r\n                  <th>Employee Name</th>\r\n                  <th>Ctc Details</th>\r\n                </tr>\r\n              </thead>\r\n              <tbody>\r\n                <tr class=\"gradeA\" *ngFor=\"let emp of emps\">\r\n                  <td>{{emp.empId}}</td>\r\n                  <td>{{emp.empName}}</td>\r\n                  <td>{{emp.ctcDetails}}</td>\r\n                </tr>\r\n              </tbody>\r\n              \r\n            </table>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n\r\n  "
+module.exports = "\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <h1 class=\"page-header\">Schedules</h1>\r\n      </div>\r\n    </div>\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <div class=\"panel panel-default\">\r\n          <div class=\"panel-body\">\r\n            <table width=\"100%\" class=\"table table-striped table-bordered table-hover\" id=\"dataTables-example\">\r\n              <thead>\r\n                <button (click)=\"getemps()\">Refresh</button>\r\n                <tr>\r\n                  <th>Employee ID</th>\r\n                  <th>Employee Name</th>\r\n                  <th>Ctc Details</th>\r\n                </tr>\r\n              </thead>\r\n              <tbody>\r\n                <tr class=\"gradeA\" *ngFor=\"let emp of emps\">\r\n                  \r\n                  <td>{{emp.empId}}</td>\r\n                  <td>{{emp.empName}}</td>\r\n                  <td *ngFor=\"let ctc of emp.ctcDetails\">\r\n                    <span>{{ctc.salary}}</span>\r\n                  </td>\r\n              \r\n                </tr>\r\n              </tbody>\r\n              \r\n            </table>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n\r\n  "
 
 /***/ }),
 
@@ -119,13 +217,28 @@ var AdminListingComponent = (function () {
         console.log(form);
         this.destroyFormEvent.emit(form);
     };
+    AdminListingComponent.prototype.empdetails = function (e) {
+        var _this = this;
+        console.log(e);
+        this._formService.getemp(e)
+            .then(function (emp) { return _this.emp = emp; })
+            .catch(function (err) { return console.log("Details not found"); });
+        console.log("Got the details back", this.emp);
+    };
     AdminListingComponent.prototype.ngOnInit = function () {
     };
     AdminListingComponent.prototype.getemps = function () {
         var _this = this;
         this._formService.getemps()
-            .then(function (emps) { return _this.emps = emps; })
-            .catch(function (err) { return console.log("err"); });
+            .then(function (emps) {
+            _this.emps = emps;
+            _this.emps.forEach(function (emp) {
+                emp.ctcDetails.forEach(function (ctcDetails) {
+                    console.log("Values", emp.empName, ctcDetails.salary);
+                });
+            });
+        })
+            .catch(function (err) { return console.log("err can fetch data from Service"); });
     };
     return AdminListingComponent;
 }());
@@ -249,8 +362,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__admin_main_component__ = __webpack_require__("../../../../../src/app/admin-main/admin-main.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__admin_footer_admin_footer_component__ = __webpack_require__("../../../../../src/app/admin-footer/admin-footer.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__admin_listing_admin_listing_component__ = __webpack_require__("../../../../../src/app/admin-main/admin-listing/admin-listing.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__form_service__ = __webpack_require__("../../../../../src/app/admin-main/form.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__employees_employees_component__ = __webpack_require__("../../../../../src/app/admin-main/employees/employees.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__admin_details_admin_details_component__ = __webpack_require__("../../../../../src/app/admin-main/admin-details/admin-details.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__form_service__ = __webpack_require__("../../../../../src/app/admin-main/form.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__employees_employees_component__ = __webpack_require__("../../../../../src/app/admin-main/employees/employees.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -260,6 +374,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -288,9 +403,10 @@ AdminMainModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_5__admin_main_component__["a" /* AdminMainComponent */],
             __WEBPACK_IMPORTED_MODULE_6__admin_footer_admin_footer_component__["a" /* AdminFooterComponent */],
             __WEBPACK_IMPORTED_MODULE_7__admin_listing_admin_listing_component__["a" /* AdminListingComponent */],
-            __WEBPACK_IMPORTED_MODULE_9__employees_employees_component__["a" /* EmployeesComponent */],
+            __WEBPACK_IMPORTED_MODULE_10__employees_employees_component__["a" /* EmployeesComponent */],
+            __WEBPACK_IMPORTED_MODULE_8__admin_details_admin_details_component__["a" /* AdminDetailsComponent */]
         ],
-        providers: [__WEBPACK_IMPORTED_MODULE_8__form_service__["a" /* FormService */]],
+        providers: [__WEBPACK_IMPORTED_MODULE_9__form_service__["a" /* FormService */]],
     }),
     __metadata("design:paramtypes", [])
 ], AdminMainModule);
@@ -307,6 +423,7 @@ AdminMainModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__admin_listing_admin_listing_component__ = __webpack_require__("../../../../../src/app/admin-main/admin-listing/admin-listing.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__admin_details_admin_details_component__ = __webpack_require__("../../../../../src/app/admin-main/admin-details/admin-details.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -319,10 +436,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var AdminMainRoutes = [
     { path: '', component: __WEBPACK_IMPORTED_MODULE_2__admin_listing_admin_listing_component__["a" /* AdminListingComponent */],
         children: [
             { path: 'list', component: __WEBPACK_IMPORTED_MODULE_2__admin_listing_admin_listing_component__["a" /* AdminListingComponent */] },
+            { path: 'list/:id', component: __WEBPACK_IMPORTED_MODULE_3__admin_details_admin_details_component__["a" /* AdminDetailsComponent */] },
         ]
     }
 ];
@@ -335,10 +454,10 @@ var AdminMainRoutingModule = (function () {
 AdminMainRoutingModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* NgModule */])({
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* RouterModule */].forChild(AdminMainRoutes)
+            __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* RouterModule */].forChild(AdminMainRoutes)
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* RouterModule */]
+            __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* RouterModule */]
         ]
     }),
     __metadata("design:paramtypes", [])
@@ -442,6 +561,10 @@ var FormService = (function () {
         return this._http.get("/emp/list")
             .map(function (data) { return data.json(); }).toPromise();
     };
+    FormService.prototype.getemp = function (emp_id) {
+        return this._http.get("/emp/list/" + emp_id)
+            .map(function (data) { return data.json(); }).toPromise();
+    };
     FormService.prototype.create = function (form) {
         return this._http.post("/forms", form)
             .map(function (data) { return data.json(); }).toPromise();
@@ -467,6 +590,58 @@ FormService = __decorate([
 
 var _a;
 //# sourceMappingURL=form.service.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/admin-main/form.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Form; });
+/* unused harmony export emp */
+/* unused harmony export benefits */
+/* unused harmony export roleGroup */
+/* unused harmony export ctcDetails */
+var Form = (function () {
+    function Form(_id, title, editable) {
+        if (_id === void 0) { _id = 5; }
+        if (title === void 0) { title = ""; }
+        if (editable === void 0) { editable = false; }
+        this._id = _id;
+        this.title = title;
+        this.editable = editable;
+    }
+    return Form;
+}());
+
+var emp = (function () {
+    function emp() {
+        this.benefits = [];
+        this.roleGroup = [];
+        this.ctcDetails = [];
+    }
+    return emp;
+}());
+
+var benefits = (function () {
+    function benefits() {
+    }
+    return benefits;
+}());
+
+var roleGroup = (function () {
+    function roleGroup() {
+    }
+    return roleGroup;
+}());
+
+var ctcDetails = (function () {
+    function ctcDetails() {
+    }
+    return ctcDetails;
+}());
+
+//# sourceMappingURL=form.js.map
 
 /***/ }),
 

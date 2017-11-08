@@ -5,10 +5,33 @@ export class Form {
         public editable: boolean = false,
     ) {}
 }
-export class emp {
-    constructor(
-        public _id: number,
-        public empId: String,
-        public empName: String,
-    ) {}
+export class emp { 
+        _id: number;
+        empId:  String;
+        empName: String;
+        dojDetails: Date;
+        dopDetails: Date;
+        benefits: Array<benefits> = [];
+        roleGroup: Array<roleGroup> = [];
+        ctcDetails: Array<ctcDetails> = [];
+}
+
+export class benefits {
+    info: String;
+    startDate: Date;
+}
+
+export class roleGroup {
+    role: String;
+    startDate: Date;
+}
+
+export class ctcDetails {
+    salary: Number;
+    epf: Number;
+    wf: Number;
+    cl: Number;
+    insurance: Number;
+    gratuity: Number;
+    month: Date;
 }
